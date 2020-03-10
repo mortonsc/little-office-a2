@@ -1,0 +1,13 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = vespers.tex
+
+name: Psalm147-4AStar;
+office-part: psalmus;
+mode: 4;
+mode-modifier: A*;
+annotation: Ps. 147;
+
+%%
+
+(c3)LAu(i)da,(hi) Je(i)rú(i)<i>sa</i>(h)<i>lem</i>,(i) <b>Dó</b>(j)mi(ir)num:(i.) *(:) lau(i)da(i) De(i)<i>um</i>(h) <i>tu</i>(i)<i>um</i>,(j) <b>Si</b>(h fr)on.(fg..) (::)
+

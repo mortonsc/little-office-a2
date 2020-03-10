@@ -1,0 +1,15 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = vespers.tex
+
+% The first part of the score is called the header, you can input some useful informations here:
+
+name: Psalm112-4AStar;
+office-part: psalmus;
+mode: 4;
+mode-modifier: A*;
+annotation: Ps. 112;
+
+%%
+
+(c3)LAu(i)dá(hi)te,(i) pú(i)<i>e</i>(h)<i>ri</i>,(i) <b>Dó</b>(j)mi(ir)num:(i.) *(:) lau(i)dá(i)<i>te</i>(h) <i>no</i>(i)<i>men</i>(j) <b>Dó</b>(h)mi(fr)ni.(fg..) (::)
+
