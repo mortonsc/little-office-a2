@@ -1,5 +1,5 @@
 % !TEX TS-program = LuaLaTeX+se
-% !TEX root = vespers.tex
+% !TEX root = per-annum.tex
 
 name: Psalm113-3b;
 office-part: psalmus;
@@ -9,5 +9,5 @@ annotation: Ps. 121;
 
 %%
 
-(c4)LÆ(g)tá(hj)tus(j) sum(j) in(j) his,(j) quæ(j) <b>dic</b>(k)ta(jr) sunt(j jr) <b>mi</b>(ih)hi:(j.) *(:) In(j) do(j)mum(j) Dó(j)mi(j)<i>ni</i>(h) <b>í</b>(j)bi(jr)mus.(i.) (::)
+(c4) 1. Læ(g)tá(hj)tus(j) sum(j) in(j) his,(j) quæ(j) <b>dic</b>(k)ta(jr) sunt(j jr) <b>mi</b>(ih)hi:(j.) *(:) In(j) do(j)mum(j) Dó(j)mi(j)<i>ni</i>(h) <b>í</b>(j)bi(jr)mus.(i.) (::)
 
