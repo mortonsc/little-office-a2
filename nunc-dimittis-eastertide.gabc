@@ -1,0 +1,8 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = eastertide.tex
+
+name: Nunc dimittis-1D2;
+user-notes: Nunc dimittis.;
+centering-scheme: latin;
+%%
+(c4)Nunc(f) di(gh)mít(h)tis(h) ser(h)vum(h) <b>tu</b>(ixi hr)um,(h) <b>Dó</b>(g)mi(hr)ne,(h.) *(:) se(h)cún(h)dum(h) ver(h)bum(h) tu(h)<i>um</i>(g) <i>in</i>(f gr) <b>pa</b>(gf)ce:(d.) (::)
