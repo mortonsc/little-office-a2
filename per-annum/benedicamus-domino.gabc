@@ -1,9 +1,7 @@
-% !TEX TS-program = LuaLaTeX+se
-% !TEX root = per-annum.tex
-
-name:Benedicamus IX;
-office-part:Kyriale;
-book:The Liber Usualis, 1961, p. 43 & Chants of the Church, 1956, p. 26;
-transcriber:Veronica Brandt;
+name:Benedicamus Domino (In Officio B.M.V in Sabbato);
+office-part:Toni Communes;
+mode:8;
+book:Nocturnale Romanum, 2002, p. LXXVII;
 %%
-(c4) <sp>V/</sp>. Be(df!gh)ne(g')di(f)cá(e.)mus(d.) Dó(fvDC'd/cd!fg)mi(f)no.(ed..) (::Z)
+(c4) <sp>V/</sp>. Be(g')ne(f)di(e')cá(f)mus(d) Dó(fhg) mi(fg)no.(g.) (::)
+<sp>R/</sp>. De(gvFE'f)o(d)  grá(fhg)ti(fg)as.(g.) (::)

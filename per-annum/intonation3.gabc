@@ -1,0 +1,13 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = per-annum.tex
+
+name:Nigra sum sed formosa;
+office-part:Antiphona;
+mode:3;
+book:The Liber Usualis, 1961, p. 1259;
+transcriber:Andrew Hinkley;
+annotation: Ant. 3;
+annotation: 3b;
+%%
+(c4) NI(g)gra(g) sum(i') sed(j) for(h')mó(j)sa.(i'_) (::) E(j) u(j) o(j) u(h) a(j) e.(i.) (::)
+

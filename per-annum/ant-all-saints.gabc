@@ -1,13 +1,7 @@
-% !TEX TS-program = LuaLaTeX+se
-% !TEX root = per-annum.tex
-
-name: Sancti Dei omnes;
-office-part: antiphon;
-transcriber: Alfred Kalantar;
-transcription-date: 2020;
-user-notes: found in the commemoration for all saints in the Baronius Press Little Office;
+name:Sancti Dei Omnes;
+office-part:Antiphona;
+mode:7;
+book:Liber antiphonarius, 1960, p. [132];
+annotation: Ant.;
 %%
-(c3)
-Sanc(e)ti(e) De(g)i(h) om(ij)nes(i.) *(,)
-in(j)ter(jl)cé(j)de(ih)re(j) di(jkj)gné(i)mi(hi)ni(i.) (,) 
-pro(iji) nos(hg)tra(f) om(h)ni(h)úm(gh)que(ih) sa(f)lu(e.)te.(e.) (::) 
+(c4) SAnc(e')ti(e) De(g')i(h) om(ij)nes,(i.) *(,)in(kj~)ter(kl)cé(kj)de(ih)re(j) dig(kj)né(i)mi(hi)ni(i.) (;) pro(iji) nos(hg)tra(efE'D) (,) om(f)ni(h)úm(hg)que(fe) sa(fgf)lú(e.)te.(e.) (::)

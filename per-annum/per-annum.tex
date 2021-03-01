@@ -80,6 +80,13 @@
 	\noindent Orémus.\par
 }{}
 
+\newenvironment{collect-no-oremus}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+}{}
+
 \newenvironment{optionbox}
 {
 	\switchcolumn[0]
@@ -109,18 +116,10 @@
 
 \begin{document}
 
-\title{Vespers of Our Lady\\Throughout the Year}
-\date{ }
-
-\maketitle
-\thispagestyle{empty}
-
-PLACEHOLDER FRONT MATTER
-
-\chapter*{Vespers}
+\chapter*{Vespers of Our Lady Throughout the Year}
 \setcounter{page}{1}
 
-\textit{This form of the Office of Vespers is celebrated for the first time on February 3rd, and continues until the Triduum.
+\textit{This form of Our Lady's Vespers is celebrated for the first time on February 3rd, and continues until the Triduum.
 However, on the Feast of the Annunciation, which may fall in this period, the Office is that of Advent.
 The Office throughout the year is resumed after Eastertide on the Saturday before Trinity Sunday,
 and celebrated for the last time on the Friday before the first Sunday of Advent.
@@ -133,8 +132,8 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \begin{latinenglishequalsection}
 
 \latinenglishequal{
-	Áperi, \CrossMaltese\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
-	\CrossMaltese\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatió-\linebreak nibus;
+	Aperi, + Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	+ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatió-\linebreak nibus;
 	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
 	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
 	Per Christum Dóminum nostrum. 
@@ -183,7 +182,9 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{laus-tibi-domine}
+	\gabcsnippet{
+	(c3) Laus(h) ti(h)bi(h) Dó(h)mi(h)ne(h'_) Rex(h) æ(h)tér(h)næ(i) gló-(h')ri-(h)æ.(g.) (::)
+	}
 }{
 	Praise to thee, O Lord, King of everlasting glory.
 }
@@ -193,12 +194,14 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \rubric{The officiant intones the antiphon:}
 
 \latinenglish{
-	\textbf{Ant. 1.} Dum esset rex.
+	\gresetinitiallines{1}
+	\gregorioscore{intonation1}
 }{
 	While the King.
 }
 
-\rubric{All sit while the the cantor sings the first half of the first verse of the psalm, and the choir continues, alternating sides between each verse of the psalm.}
+\rubric{The cantor sings the first verse of the psalm, and all sit halfway through the verse, at the asterisk. The other side of the choir
+continues with the second verse, and the two sides alternate throughout the psalm.}
 
 \latinenglish{
 	\gresetinitiallines{0}
@@ -215,8 +218,6 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	\item Tecum princípium in die virtútis tuæ in splendóri\textbf{bus} sanc\textbf{tó}rum:~*\linebreak
 	ex útero ante lucíferum gé\textit{nu}\textbf{i} te.
 	
-	\pagebreak
-	
 	\item Jurávit Dóminus, et non p\oe ni\textbf{té}bit \textbf{e}um:~*\linebreak
 	Tu es sacérdos in ætérnum secúndum órdinem \textit{Mel}\textbf{chí}sedech.
 	
@@ -227,13 +228,13 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	conquassábit cápita in terra \textit{mul}\textbf{tó}rum.
 	
 	\item De torrénte in \textbf{vi}a \textbf{bi}bet:~*\linebreak
-	\textit{(stand)} proptérea exaltá\textit{bit} \textbf{ca}put.
+	proptérea exaltá\textit{bit} \textbf{ca}put.
 	
 	\item \textit{(bow)} Glória \textbf{Pa}tri, et \textbf{Fí}\textbf{li}o,~*\linebreak
 	et Spirítu\textit{i} \textbf{Sanc}to.
 	
 	\item \textit{(rise)} Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,~*\linebreak
-	\textit{(sit)} et in s\'{\ae}cula sæculó\textit{rum}. \textbf{A}men.
+	et in s\'{\ae}cula sæculó\textit{rum}. \textbf{A}men.
 	
 	\end{verses}
 }{
@@ -264,15 +265,14 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	Glory be.
 }
 	
-\rubric{The same postures are observed at the end of every psalm.}
+\rubric{The bow at the \textnormal{Gloria Patri} is observed in the same way at the end of every psalm.}
 	
 \rubric{All sing the full antiphon together:}
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant1}
 }{
-	\textnormal{Ant.}
 	While the King was reposing, my spikenard yielded the odor of sweetness.
 }
 
@@ -281,7 +281,8 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \heading{\section*{Psalm 112}}
 
 \latinenglish{
-	\textbf{Ant. 2.} Læva ejus.
+	\gresetinitiallines{1}
+	\gregorioscore{intonation2}
 }{
 	His left hand.
 }
@@ -342,17 +343,17 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 }
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant2}
 }{
-	\textnormal{Ant.}
 	His left hand under my head, and his right hand shall embrace me.
 }
 
 \heading{\section*{Psalm 121}}
 
 \latinenglish{
-	\textbf{Ant. 3.} Nigra sum sed formósa.
+	\gresetinitiallines{1}
+	\gregorioscore{intonation3}
 }{
 	I am black, but beautiful.
 }
@@ -409,8 +410,6 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	
 	7. Let peace be in thy strength: and abundance in thy towers.
 	
-	\pagebreak
-	
 	8. For the sake of my brethren, and of my neighbours, I spoke\linebreak peace of thee.
 	
 	9. Because of the house of the Lord our God, I have sought good things for thee.
@@ -419,17 +418,17 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 }
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant3}
 }{
-	\textnormal{Ant.}
 	I am black, but beautiful, O daughters of Jerusalem: therefore hath the king loved me, and brought me into his chamber.
 }
 
 \heading{\section*{Psalm 126}}
 
 \latinenglish{
-	\textbf{Ant. 4.} Jam hiems tránsiit.
+	\gresetinitiallines{1}
+	\gregorioscore{intonation4}
 }{
 	Now is the winter past.
 }
@@ -480,17 +479,17 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 }
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant4}
 }{
-	\textnormal{Ant.}
 	Now is the winter past, the rain is over and gone: arise, my beloved, and come.
 }
 
 \heading{\section*{Psalm 147}}
 
 \latinenglish{
-	\textbf{Ant. 5.} Speciósa facta es.
+	\gresetinitiallines{1}
+	\gregorioscore{intonation5}
 }{
 	Thou art become beautiful.
 }
@@ -554,13 +553,10 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	Glory be.
 }
 
-\flushpage
-
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant5}
 }{
-	\textnormal{Ant.}
 	Thou art become beautiful and sweet in thy delights, O holy Mother of God.
 }
 
@@ -591,28 +587,6 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \latinenglish{
 	\gresetinitiallines{1}
 	\gregorioscore{ave-maris-stella}
-	
-	\begin{verses}{1}
-	
-	\item \textit{(stand)} Sumens illud Ave, Gabriélis ore,\linebreak
-	funda nos in pace, mutans Hevæ nomen.
-	
-	\item Solve vincla reis, profer lumen cæcis,\linebreak
-	mala nostra pelle, bona cuncta posce.
-	
-	\item Monstra t\textit{e} esse matrem, sumat per te preces,\linebreak
-	qui pro nobis natus, tulit esse tuus.
-	
-	\item Virgo singuláris, inter omnes mitis,\linebreak
-	nos culpis solútos, mites fac et castos.
-	
-	\item Vitam præsta puram, iter para tutum,\linebreak
-	ut vidéntes Jesum semper collætémur.
-	
-	\item \textit{(bow)} Sit laus Deo Patri, summo Christo decus,\linebreak
-	Spirítui Sancto, tribus honor unus. Amen.
-	
-	\end{verses}
 }{
 	1.  Hail, O Star of the ocean,
 	God's own Mother blest,
@@ -669,7 +643,8 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \rubric{Remain standing throughout the canticle.}
 
 \latinenglish{
-	\textbf{Ant. Magn.} Beáta Mater.
+	\gresetinitiallines{1}
+	\gregorioscore{intonationmagn}
 }{
 	Blessed Mother.
 }
@@ -741,10 +716,9 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \rubric{All sit.}
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{antmagn}
 }{
-	\textnormal{Ant.}
 	Blessed Mother and inviolate Virgin, glorious Queen of the world, intercede for us with the Lord.
 }
 
@@ -783,35 +757,35 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	\begin{collect}
 	Concéde nos fámulos tuos, qu\'{\ae}sumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére:
 	et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.
-	Per Dóminum. \Amen
+	Per Dóminum nostrum. \Amen
 	\end{collect}
 }{
 	Let us pray.
 	Grant, we beseech thee, O Lord God, that we, thy servants, may enjoy perpetual health, both of mind and body;
 	and by the glorious intercession of blessed Mary ever Virgin,
 	may be delivered from present sorrow, and attain unto\linebreak\ eternal joy.
-	Through our Lord.\linebreak
+	Through our Lord Jesus Christ.
 	\Rbar.~Amen.
 }
-
-\rubric{Commemorations or votive suffrages may be said here.}
 
 \heading{\section*{Suffrage of St. Joseph}}
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant-joseph}
 	
 	\begin{versicles}
 	\Vbar. Ecce homo sine queréla, verus Dei cultor.
 	
-	\Rbar. Ábstinens se ab omni ópere malo, et pérmanens in innocéntia sua.
+	\Rbar. Abstinens se ab omni ópere malo, et pérmanens in innocéntia sua.
 	\end{versicles}
 	
 	\begin{collect}
 	Sanctíssimæ Genetrícis tuæ Sponsi, qu\'{\ae}sumus, Dómine, méritis adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur.
 	%(Qui vivis.)
 	\end{collect}
+	
+	\rubric{The conclusion of the prayer \textnormal{(Qui vivis)} is omitted, and the response \textnormal{Amen} is not made.}
 }{
 	A faithful and wise servant, whom the Lord hath set over His household.
 	
@@ -828,7 +802,7 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 \heading{\section*{Suffrage of the Saints}}
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant-all-saints}
 	
 	\begin{versicles}
@@ -837,7 +811,9 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	\Rbar. Et gloriámini, omnes recti corde.
 	\end{versicles}
 	
-	\begin{collect}
+	\rubric{The officiant says the prayer without \textnormal{Oremus}:}
+	
+	\begin{collect-no-oremus}
 	Prótege, Dómine, pópulum tuum, et apostolórum tuórum Petri et Pauli, et aliórum apostolórum patrocínio confidéntem, perpétua defensióne consérva.
 	
 	Omnes Sancti tui, qu\'{\ae}sumus, Dómine, nos úbique ádjuvent;
@@ -850,7 +826,7 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	et ómnibus fidélibus defúnctis réquiem ætérnam concéde.
 	Per Dóminum nostrum Jesum Christum.
 	\Amen
-	\end{collect}
+	\end{collect-no-oremus}
 }{
 	O all ye Saints of God, vouchsafe to intercede for our salvation, and that of all mankind.
 	
@@ -901,15 +877,10 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	\gresetinitiallines{0}
 	\gregorioscore{benedicamus-domino}
 }{
-	Let us bless the Lord.
+	Let us bless the Lord. \Vbar.~Thanks be to God.
 }
 
-\latinenglish{
-	\gresetinitiallines{0}
-	\gregorioscore{deo-gratias}
-}{
-	Thanks be to God.
-}
+\rubric{In a low voice:}
 
 \latinenglish{
 	\begin{versicles}
@@ -965,6 +936,8 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	\Rbar.~Amen.
 }
 
+\rubric{In a low voice:}
+
 \latinenglish{
 	\begin{versicles}
 	\Vbar. Divínum auxílium máneat semper nobíscum.
@@ -1018,6 +991,8 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	\Rbar.~Amen.
 }
 
+\rubric{In a low voice:}
+
 \latinenglish{
 	\begin{versicles}
 	\Vbar. Divínum auxílium máneat semper nobíscum.
@@ -1035,10 +1010,10 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 
 \begin{latinenglishequalsection}
 
-\spanning{\section*{Concluding Prayers}}
+\spanning{\section*{Prayer after the Office}}
 
 \rubric{All kneel and pray silently.}
-
+⎄
 \latinenglishequal{
 	\begin{versicles}
 	Sacrosánctæ et indivíduæ Trinitáti, Crucifíxi\linebreak Dómini nostri Jesu Christi humanitáti,
@@ -1059,57 +1034,6 @@ and celebrated for the last time on the Friday before the first Sunday of Advent
 	
 	 \Rbar. And blessed are the paps that gave suck to Christ our Lord.
 	 \end{versicles}
-}
-
-\latinenglishequal{
-	Pater Noster, qui es in cælis, sanctificétur nomen tuum.
-	Advéniat regnum tuum.
-	Fiat volúntas tua, sicut in cælo et in terra.
-	Panem nostrum quoti\-diánum da nobis hódie,
-	et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.
-	Et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.
-}{
-	Our Father, who art in heaven, hallowed be thy name.
-	Thy kingdom come.
-	Thy will be done, on earth as it is in heaven.
-	Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us.
-	And lead us not into temptation: but deliver us from evil.
-	Amen.
-}
- 
- \latinenglishequal{
-	 Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
-	 Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
-}{
- 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
- 	Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
-}
- 
- \latinenglishequal{
-	Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ.
-Et in Jesum Christum, Fílium ejus únicum, Dóminum nostrum: qui concéptus est de Spíritu Sancto, natus ex María Vírgine, passus sub Póntio Piláto, crucifíxus, mórtuus, et sepúltus: descéndit ad ínferos; tértia die resurréxit a mórtuis; ascéndit ad cælos; sedet ad déxteram Dei Patris omnipoténtis: inde ventúrus est judicáre vivos et mórtuos.
-	Credo in Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communiónem, remissiónem peccatórum, carnis resurrectiónem, vitam ætérnam. Amen.
-}{
-	I believe in God,
-	the Father Almighty,
-	Creator of\linebreak heaven and earth,
-	and in Jesus Christ, His only Son, our Lord,
-	who was conceived by the Holy Spirit,
-	born of the Virgin Mary,
-	suffered under Pontius Pilate,
-	was crucified, died and was buried;
-	He descended into hell;
-	on the third day He rose again from the dead;
-	He ascended into heaven,
-	and is seated at the right hand of God the Father Almighty;
-	from thence He will come to judge the living and the dead.
-	I believe in the Holy Spirit,
-	the Holy Catholic Church,
-	the communion of Saints,
-	the forgiveness of sins,
-	the resurrection of the body,
-	and life everlasting.
-	Amen.
 }
 
 \end{latinenglishequalsection}

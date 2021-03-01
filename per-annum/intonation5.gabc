@@ -1,0 +1,13 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = per-annum.tex
+
+name:Speciosa facta es (Ant);
+office-part:Antiphona;
+mode:4;
+book:The Liber Usualis, 1961, p. 1259;
+transcriber:Andrew Hinkley;
+annotation: Ant. 5;
+annotation: 4A*;
+%%
+(c3) SPe(e)ci(f')ó(h)sa(h') fa(h)cta(ij) es.(i.)  (::) E(i) u(h) o(i) u(j) a(h) e.(fg..) (::)
+
