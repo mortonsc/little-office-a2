@@ -1,11 +1,8 @@
-% !TEX TS-program = LuaLaTeX+se
-% !TEX root = per-annum.tex
-
-name:Fidelis servus et prudens (Ant.);
+name:Ecce fidelis servus;
 office-part:Antiphona;
-mode:3;
-book:The Liber Usualis, 1961, p. 1196 & The Liber Usualis, 1961, p. 1446;
+mode:8;
+book:Liber antiphonarius, 1960, p. 658;
 transcriber:Andrew Hinkley;
 annotation: Ant.;
 %%
-(c4) FI(g)dé(g')lis(h) ser(j)vus(j) et(h') pru(j)dens,(i.) *(;) quem(g) con(h)stí(h')tu(h)it(h') Dó(i)mi(h)nus(g.) (;) su(g)per(g) fa(gh)mí(hv_GF')li(g)am(gf) su(e.)am.(e.)  (::)
+(c4) EC(h)ce(gf) fi(h')dé(j)lis(i') ser(j)vus(hg) *() et(f) pru(fg)dens,(g.) (;) quem(h) con(f)stí(g)tu(f)it(e_f) Dó(gh)mi(g)nus(g'_) (,) su(h)per(gf) fa(h)mí(hj)li(j)am(i) su(g.)am.(g.) (::)
