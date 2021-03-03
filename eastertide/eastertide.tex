@@ -80,6 +80,13 @@
 	\noindent Orémus.\par
 }{}
 
+\newenvironment{collect-no-oremus}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+}{}
+
 \newenvironment{optionbox}
 {
 	\switchcolumn[0]
@@ -109,28 +116,22 @@
 
 \begin{document}
 
-\title{Vespers of Our Lady\\In Eastertide}
-\date{ }
+\chapter*{Vespers of Our Lady in Eastertide}
+\setcounter{page}{1}
 
-\maketitle
+\textit{This Office is celebrated for the first time on Easter Sunday, and for the last time on the Friday in the octave of Pentecost.
+However, on the Feast of the Annunciation, which may fall in this period, the Office is that of Advent.
+}
 
-PLACEHOLDER FRONT MATTER
-
-\chapter*{Vespers}
-
-\textit{This form of the Office of Vespers is celebrated for the first time after the Easter Vigil on Holy Saturday,
-and for the last time on the Friday before Trinity Sunday.
-However, on the Feast of the Annunciation, which may fall in this period, the Office is that of Advent.}
-
-\section*{Preparatory Prayers}
+\section*{Prayers Before the Office}
 
 \textit{ All kneel and pray silently. As you say the prayer \textnormal{Aperi, Domine}, make the sign of the cross with your thumb first over your lips, and then over your heart.}
 
 \begin{latinenglishequalsection}
 
 \latinenglishequal{
-	Áperi, \CrossMaltese\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
-	\CrossMaltese\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatió-\linebreak nibus;
+	Aperi, + Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	+ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatió-\linebreak nibus;
 	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
 	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
 	Per Christum Dóminum nostrum. 
@@ -140,9 +141,9 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 }
 
 \latinenglishequal{
-	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.
+	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, hanc tibi Horam persólvo.
 }{
-	O Lord, in union with that divine intention wherewith thou, whilst here on earth, didst render praises unto God, I desire to offer this my Office of prayer unto thee.
+	O Lord, in union with that divine intention wherewith Thou, whilst here on earth, didst render praises unto God, I desire to offer this Hour of prayer unto Thee.
 }
 
 \latinenglishequal{
@@ -163,7 +164,7 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \rubric{As the officiant intones the beginning of the office, all stand and make the sign of the cross.}
 
 \latinenglish{
-	\gregorioscore{deus-in-adjutorium}
+	\gregorioscore{../per-annum/deus-in-adjutorium}
 }{
 	O God, come to my assistance.
 		
@@ -180,16 +181,18 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \rubric{The officiant intones the antiphon:}
 
 \latinenglish{
-	\textbf{Ant. 1.} Dum esset rex.
+	\gresetinitiallines{1}
+	\gregorioscore{../per-annum/intonation1}
 }{
 	While the King.
 }
 
-\rubric{Then the cantor sings the first half of the first verse of the psalm, and the choir continues, alternating sides between each verse of the psalm.}
+\rubric{The cantor sings the first verse of the psalm, and all sit halfway through the verse, at the asterisk. The other side of the choir
+continues with the second verse, and the two sides alternate throughout the psalm.}
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{psalm1}
+	\gregorioscore{../per-annum/psalm1}
 	
 	\begin{verses}{1}
 	
@@ -212,13 +215,13 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	conquassábit cápita in terra \textit{mul}\textbf{tó}rum.
 	
 	\item De torrénte in \textbf{vi}a \textbf{bi}bet:~*\linebreak
-	\textit{(stand)} proptérea exaltá\textit{bit} \textbf{ca}put.
+	proptérea exaltá\textit{bit} \textbf{ca}put.
 	
 	\item \textit{(bow)} Glória \textbf{Pa}tri, et \textbf{Fí}\textbf{li}o,~*\linebreak
 	et Spirítu\textit{i} \textbf{Sanc}to.
 	
 	\item \textit{(rise)} Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,~*\linebreak
-	\textit{(sit)} et in s\'{\ae}cula sæculó\textit{rum}. \textbf{A}men.
+	et in s\'{\ae}cula sæculó\textit{rum}. \textbf{A}men.
 	
 	\end{verses}
 }{
@@ -237,8 +240,6 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	5. The Lord hath sworn, and will not repent:
 	Thou art a priest forever according to the order of\linebreak Melchisedech.
 	
-	\pagebreak
-	
 	6. The Lord upon thy right hand:
 	hath overthrown kings in the day of his wrath.
 	
@@ -251,31 +252,31 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	Glory be.
 }
 	
-\rubric{The same postures are observed at the end of every psalm.}
+\rubric{The bow at the \textnormal{Gloria Patri} is observed in the same way at the end of every psalm.}
 	
 \rubric{All sing the full antiphon together:}
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant1-alleluia}
 }{
-	\textnormal{Ant.}
-	While the King was reposing, my spikenard yielded the odor of sweetness. Alleluia.
+	While the King was reposing, my spikenard yielded the odor of sweetness, alleluia.
 }
 
-\rubric{The remaining psalms with their antiphons are sung in the same way as the first.}
+\rubric{The remaining psalms with their antiphons are sung in the same way.}
 
 \heading{\section*{Psalm 112}}
 
 \latinenglish{
-	\textbf{Ant. 2.} Læva ejus.
+	\gresetinitiallines{1}
+	\gregorioscore{../per-annum/intonation2}
 }{
 	His left hand.
 }
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{psalm2}
+	\gregorioscore{../per-annum/psalm2}
 	
 	\begin{verses}{1}
 	
@@ -296,8 +297,6 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	
 	\item Ut cóllocet eum \textit{cum} \textit{prin}\textbf{cí}pibus,~*\linebreak
 	cum princípibus \textit{pó}\textit{pu}\textit{li} \textbf{su}i.
-	
-	\pagebreak
 	
 	\item Qui habitáre facit stéri\textit{lem} \textit{in} \textbf{do}mo,~*\linebreak
 	matrem fili\textit{ó}\textit{rum} \textit{læ}\textbf{tán}tem.
@@ -331,24 +330,24 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 }
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant2-alleluia}
 }{
-	\textnormal{Ant.}
-	His left hand under my head, and his right hand shall embrace me. Alleluia.
+	His left hand under my head, and his right hand shall embrace me.
 }
 
 \heading{\section*{Psalm 121}}
 
 \latinenglish{
-	\textbf{Ant. 3.} Nigra sum sed formósa.
+	\gresetinitiallines{1}
+	\gregorioscore{../per-annum/intonation3}
 }{
 	I am black, but beautiful.
 }
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{psalm3}
+	\gregorioscore{../per-annum/psalm3}
 
 	\begin{verses}{1}
 	
@@ -402,30 +401,28 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	
 	9. Because of the house of the Lord our God, I have sought good things for thee.
 	
-	\pagebreak
-	
 	Glory be. 
 }
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant3-alleluia}
 }{
-	\textnormal{Ant.}
-	I am black, but beautiful, O daughters of Jerusalem: therefore hath the king loved me, and brought me into his chamber. Alleluia.
+	I am black, but beautiful, O daughters of Jerusalem: therefore hath the king loved me, and brought me into his chamber, alleluia.
 }
 
 \heading{\section*{Psalm 126}}
 
 \latinenglish{
-	\textbf{Ant. 4.} Jam hiems tránsiit.
+	\gresetinitiallines{1}
+	\gregorioscore{../per-annum/intonation4}
 }{
 	Now is the winter past.
 }
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{psalm4}
+	\gregorioscore{../per-annum/psalm4}
 	
 	\begin{verses}{1}
 	
@@ -460,35 +457,35 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	
 	4. When he shall give sleep to his beloved: behold the inheritance of the Lord are children: the reward, the fruit of the womb.
 	
-	5. As arrows in the hand of the mighty, so the children of them that have been shaken.
+	\pagebreak
 	
-	6. Blessed is the man that hath filled the desire with them;
+	5. As arrows in the hand of the mighty, so the children of them that have been cast out.
+	
+	6. Blessed is the man that hath filled his desire with them;
 	he shall not be confounded when he shall speak to his enemies in the gate. 
 	
 	Glory be.
 }
 
-\flushpage
-
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant4-alleluia}
 }{
-	\textnormal{Ant.}
-	Now is the winter past, the rain is over and gone: arise, my beloved, and come. Alleluia.
+	Now is the winter past, the rain is over and gone: arise, my beloved, and come, alleluia.
 }
 
 \heading{\section*{Psalm 147}}
 
 \latinenglish{
-	\textbf{Ant. 5.} Speciósa facta es.
+	\gresetinitiallines{1}
+	\gregorioscore{../per-annum/intonation5}
 }{
 	Thou art become beautiful.
 }
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{psalm5}
+	\gregorioscore{../per-annum/psalm5}
 	
 	\begin{verses}{1}
 	
@@ -545,28 +542,22 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	Glory be.
 }
 
-\flushpage
-
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant5-alleluia}
 }{
-	\textnormal{Ant.}
-	Thou art become beautiful and sweet in thy delights, O holy Mother of God. Alleluia.
+	Thou art become beautiful and sweet in thy delights, O holy Mother of God, alleluia.
 }
 
 \heading{\section*{Little Chapter (Sirach 24:14)}}
 
-\latinenglish{
-	\textit{All stand.}
-	
-	Ab inítio et ante s\'{\ae}cula creáta sum,~\GreDagger\ 
-	et usque ad futúrum s\'{\ae}culum non désinam,~* 
-	et in habitatióne sancta coram ipso ministrávi.
-	
-	\gresetinitiallines{0}
+\latinenglish{	
+	\gresetinitiallines{1}
 	\gabcsnippet{
-	(c3) <sp>R/</sp>. De(h)o(h) grá(f)ti(e)as.(e.f.) (::)
+	(c3) 	Ab(h) i(h)ní(h)ti(h)o(h) et(h) an(h)te(h) s<sp>'ae</sp>(h)cu(h)la(h) cre(h)á(h)ta(f) sum,(f)
+	et(h) us(h)que(h) ad(h) fu(h)tú(h)rum(h) s<sp>'ae</sp>(h)cu(h)lum(g) non(f) dé(h)si(h)nam,(h)
+	et(h) in(h) ha(h)bi(h)ta(h)ti(h)ó(h)ne(h) sanc(h)ta(h) co(h)ram(h) ip(h)so(h) mi(h)nis(h)trá(f)vi.(ef..) (::)
+	<sp>R/</sp>. De(h)o(h) grá(f)ti(e)as.(ef..) (::)
 	}
 }{
 	From the beginning, and before the world, was I created,
@@ -581,29 +572,7 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 
 \latinenglish{
 	\gresetinitiallines{1}
-	\gregorioscore{ave-maris-stella}
-	
-	\begin{verses}{1}
-	
-	\item \textit{(stand)} Sumens illud Ave, Gabriélis ore,\linebreak
-	funda nos in pace, mutans Hevæ nomen.
-	
-	\item Solve vincla reis, profer lumen cæcis,\linebreak
-	mala nostra pelle, bona cuncta posce.
-	
-	\item Monstra t\textit{e} esse matrem, sumat per te preces,\linebreak
-	qui pro nobis natus, tulit esse tuus.
-	
-	\item Virgo singuláris, inter omnes mitis,\linebreak
-	nos culpis solútos, mites fac et castos.
-	
-	\item Vitam præsta puram, iter para tutum,\linebreak
-	ut vidéntes Jesum semper collætémur.
-	
-	\item \textit{(bow)} Sit laus Deo Patri, summo Christo decus,\linebreak
-	Spirítui Sancto, tribus honor unus. Amen.
-	
-	\end{verses}
+	\gregorioscore{../per-annum/ave-maris-stella}
 }{
 	1.  Hail, O Star of the ocean,
 	God's own Mother blest,
@@ -618,7 +587,7 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	3. Break the sinners' fetters,
 	make our blindness day,
 	chase all evils from us,
-	for all blessings pray. 
+	for all blessings pray.
 	
 	4. Show thyself a Mother,
 	may the Word divine,
@@ -644,8 +613,7 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \latinenglish{
 	\gresetinitiallines{0}
 	\gabcsnippet{
-	(c3) <sp>V/</sp>. Dif(h)fú(h)sa(h) est(h) grá(h)ti(h)a(h) in(h) lá(h)bi(h)is(h) tu(h)is,(h)
-	al(h)le(h)lú(h)ia.(g'_/hvGF'E/fgf.) (::)
+	(c3) <sp>V/</sp>. Dif(h)fú(h)sa(h) est(h) grá(h)ti(h)a(h) in(h) la(h)bi(h)is(h) tu(h)is,(h) al(h)le(h)lú(h)ia.(g'_/hvGF'E/fgf.) (::)
 	}
 }{
 	Grace was poured forth on thy lips, alleluia.
@@ -654,10 +622,8 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \latinenglish{
 	\gresetinitiallines{0}
 	\gabcsnippet{
-	(c3) <sp>R/</sp>.  Prop(h)té(h)re(h)a(h) be(h)ne(h)dí(h)xit(h) te(h) De(h)us(h) in(h) æ(h)tér(h)num,(h) 
-	al(h)le(h)lú(h)ia.(g'_/hvGF'E/fgf.) (::)
+	(c3) <sp>R/</sp>. Prop(h)tér(h)e(h)a(h) be(h)ne(h)dí(h)xit(h) te(h) De(h)us(h) in(h) æ(h)tér(h)num,(h) al(h)le(h)lú(h)ia.(g'_/hvGF'E/fgf.) (::)
 	}
-
 }{
 	Therefore hath the Lord blessed thee for ever, alleluia.
 }
@@ -667,9 +633,10 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \rubric{Remain standing throughout the canticle.}
 
 \latinenglish{
-	\textbf{Ant. Magn.} Regína cæli.
+	\gresetinitiallines{1}
+	\gregorioscore{intonation-regina-caeli}
 }{
-	Queen of heaven.
+	%TODO
 }
 
 \rubric{As the cantor intones the \textnormal{Magnificat}, make the sign of the cross.}
@@ -681,34 +648,34 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	\begin{verses}{2}
 	
 	\item Quia respéxit humilitátem \textit{an}\textit{cíl}\textit{læ} \textbf{su}æ:~*\linebreak
-	ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
-
-	\item Quia fecit mihi \textit{ma}\textit{gna} \textit{qui} \textbf{pot}\textbf{ens} est:~*\linebreak
-	et sanctum \textit{no}\textit{men} \textbf{e}jus.
-
-	\item Et misericórdia ejus a progéni\textit{e} \textit{in} \textit{pro}\textbf{gé}\textbf{ni}es~*\linebreak
-	timén\textit{ti}\textit{bus} \textbf{e}um.
-
+	ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
+	
+	\item Quia fecit mihi \textit{ma}\textit{gna} \textit{qui} \textbf{pot}ens est:~*\linebreak
+	et sanctum no\textit{men} \textbf{e}jus.
+	
+	\item Et misericórdia ejus a progéni\textit{e} \textit{in} \textit{pro}\textbf{gé}nies~*\linebreak
+	timénti\textit{bus} \textbf{e}um.
+	
 	\item Fecit poténtiam in \textit{brá}\textit{chi}\textit{o} \textbf{su}o:~*\linebreak
-	dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
-
+	dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
+	
 	\item Depósuit pot\textit{én}\textit{tes} \textit{de} \textbf{se}de,~*\linebreak
-	et exal\textit{tá}\textit{vit} \textbf{hú}\textbf{mi}les.
-
+	et exaltá\textit{vit} \textbf{hú}miles.
+	
 	\item Esuriéntes \textit{im}\textit{plé}\textit{vit} \textbf{bo}nis:~*\linebreak
-	et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
-
+	et dívites dimísit \textit{in}\textbf{á}nes.
+	
 	\item Suscépit Israël \textit{pú}\textit{e}\textit{rum} \textbf{su}um,~*\linebreak
-	recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
-
+	recordátus misericórdi\textit{æ} \textbf{su}æ.
+	
 	\item Sicut locútus est \textit{ad} \textit{pa}\textit{tres} \textbf{nos}tros,~*\linebreak
-	Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}\textbf{cu}la.
-
-	\item  \textit{(bow)} Glória \textit{Pa}\textit{tri}, \textit{et} \textbf{Fí}\textbf{li}o,~*\linebreak
-	et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
-
+	Abraham et sémini ejus \textit{in} \textbf{s\'{\ae}}cula.
+	
+	\item  \textit{(bow)} Glória \textit{Pa}\textit{tri}, \textit{et} \textbf{Fí}lio,~*\linebreak
+	et Spirítu\textit{i} \textbf{Sanc}to.
+	
 	\item  \textit{(rise)} Sicut erat in princípio, \textit{et} \textit{nunc}, \textit{et} \textbf{sem}per,~*\linebreak
-	et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	et in s\'{\ae}cula sæculó\textit{rum}. \textbf{A}men.
 	
 	\end{verses}
 }{
@@ -739,20 +706,28 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \rubric{All sit.}
 
 \latinenglish{
-	\gresetinitiallines{0}
+	\gresetinitiallines{1}
 	\gregorioscore{ant-regina-caeli}
 }{
-	\textnormal{Ant.}
-	Joy to thee, O Queen of Heaven, alleluia.
-    	He whom Thou wast meet to bear; alleluia.
-   	As He promised, hath arisen; alleluia.
-    	Pour for us to God thy prayer, alleluia.
+	% TODO
 }
 
+\flushpage
 
 \heading{\section*{Collect}}
 
 \rubric{All stand.}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3) Ký(h)ri(h)e(h) e(h)lé(h)i(h)son.(h.) <sp>R/</sp>.(::) Chris(h)te(h) e(h)lé(h)i(h)son.(h.) (,) Ký(h)ri(h)e(h) e(f)lé(g)i(h)son.(h.) (::)
+	}
+}{
+	Lord have mercy.
+	\Rbar.~Christ have mercy.
+	Lord have mercy.
+}
 
 \latinenglish{
 	\begin{versicles}
@@ -782,44 +757,50 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 
 \latinenglish{	
 	\begin{collect}
-	Concéde nos fámulos tuos, qu\'{\ae}sumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére:
-	et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.
-	Per Dóminum. \Amen
+	Concéde nos fámulos tuos, qu\'{\ae}sumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére:~\GreDagger\
+	et gloriósa beátæ Maríæ semper Vírginis intercessióne,~*
+	a præsénti liberári tristítia, et ætérna pérfrui lætítia.
+	Per Dóminum nostrum Jesum Christum, Filium tuum,~\GreDagger\
+	qui tecum vivit et regnat in unitate Spiritus Sancti, Deus,~*
+	per omnia s\'{\ae}cula sæculórum.
+	\Amen
 	\end{collect}
 }{
 	Let us pray.
 	Grant, we beseech thee, O Lord God, that we, thy servants, may enjoy perpetual health, both of mind and body;
 	and by the glorious intercession of blessed Mary ever Virgin,
 	may be delivered from present sorrow, and attain unto\linebreak\ eternal joy.
-	Through our Lord.\linebreak
+	Through our Lord Jesus Christ.
 	\Rbar.~Amen.
 }
-
-\rubric{Commemorations or votive suffrages may be said here.}
-
-\flushpage
 
 \heading{\section*{Suffrage of St. Joseph}}
 
 \latinenglish{
-	\gresetinitiallines{0}
-	\gregorioscore{ant-joseph}
-	
+	\gresetinitiallines{1}
+	\gregorioscore{ant-joseph-alleluia}
+}{
+	Behold, a faithful and wise servant, whom the Lord hath set over His household, alleluia.
+}
+
+\latinenglish{
 	\begin{versicles}
-	\Vbar. Ecce homo sine queréla, verus Dei cultor.
+	\Vbar. Glória et divítiæ in domo ejus, alleluia.
 	
-	\Rbar. Ábstinens se ab omni ópere malo, et pérmanens in innocéntia sua.
+	\Rbar. Et justítia ejus manet in s\'{\ae}culum s\'{\ae}culi, alleluia.
 	\end{versicles}
 	
 	\begin{collect}
-	Sanctíssimæ Genetrícis tuæ Sponsi, qu\'{\ae}sumus, Dómine, méritis adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur.
+	Sanctíssimæ Genetrícis tuæ Sponsi, qu\'{\ae}sumus, Dómine, méritis adjuvémur:~\GreDagger\
+	ut, quod possibílitas nostra non óbtinet,~*
+	ejus nobis intercessióne donétur.
 	%(Qui vivis.)
 	\end{collect}
-}{
-	A faithful and wise servant, whom the Lord hath set over His household.
 	
-	Behold a man without blame, a true worshipper of God.
-	\Rbar.~Abstaining from every evil work, and abiding in his innocence.
+	\rubric{The conclusion of the prayer \textnormal{(Qui vivis)} is omitted, and the response \textnormal{Amen} is not made.}
+}{
+	Glory and wealth shall be in his house, alleluia.
+	\Rbar.~And his justice remaineth for ever and ever, alleluia.
 	
 	Let us pray.
 	Assist us, O Lord, we beseech thee,
@@ -831,34 +812,37 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 \heading{\section*{Suffrage of the Saints}}
 
 \latinenglish{
-	\gresetinitiallines{0}
-	\gregorioscore{ant-all-saints}
+	\gresetinitiallines{1}
+	\gregorioscore{ant-all-saints-alleluia}
 	
 	\begin{versicles}
-	\Vbar. Lætámini in Dómino, et exsultáte, justi.
+	\Vbar. Lætámini in Dómino, et exsultáte, justi, alleluia.
 	
-	\Rbar. Et gloriámini, omnes recti corde.
+	\Rbar. Et gloriámini, omnes recti corde, alleluia.
 	\end{versicles}
 	
 	\begin{collect}
-	Prótege, Dómine, pópulum tuum, et apostolórum tuórum Petri et Pauli, et aliórum apostolórum patrocínio confidéntem, perpétua defensióne consérva.
+	Prótege, Dómine, pópulum tuum,~*
+	et apostolórum tuórum Petri et Pauli, et aliórum apostolórum patrocínio confidéntem, perpétua defensióne consérva.
 	
 	Omnes Sancti tui, qu\'{\ae}sumus, Dómine, nos úbique ádjuvent;
-	ut dum eórum mérita recólimus, patrocínia sentiámus:
+	ut dum eórum mérita recólimus, patrocínia sentiámus:~*
 	et pacem tuam nostris concéde tempóribus,
-	et ab Ecclésia tua cunctam repélle nequítiam:
+	et ab Ecclésia tua cunctam repélle nequítiam:~**
 	iter, actus, et voluntátes nostras,
-	et ómnium famulórum tuórum in salútis tuæ prosperitáte dispóne:
+	et ómnium famulórum tuórum in salútis tuæ prosperitáte dispóne:~*
 	benefactóribus nostris sempitérna bona\linebreak\ retríbue,
 	et ómnibus fidélibus defúnctis réquiem ætérnam concéde.
-	Per Dóminum nostrum Jesum Christum.
+	Per Dóminum nostrum Jesum Christum, Filium tuum,~\GreDagger\
+	qui tecum vivit et regnat in unitate Spiritus Sancti, Deus,~*
+	per omnia s\'{\ae}cula sæculórum.
 	\Amen
 	\end{collect}
 }{
-	O all ye Saints of God, vouchsafe to intercede for our salvation, and that of all mankind.
+	O all ye Saints of God, vouchsafe to intercede for our salvation, and that of all mankind, alleluia.
 	
-	Rejoice in the Lord, and be glad, O ye just.
-	\Rbar.~And glory, all ye that are right of heart.
+	Rejoice in the Lord, and be glad, O ye just, alleluia.
+	\Rbar.~And glory, all ye that are right of heart, alleluia.
 	
 	Let us pray. Protect thy people, O Lord, and preserve them by thy continual defence, who trust in the patronage of Peter and Paul, and all thy other apostles.
 	
@@ -871,8 +855,6 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	and to all the faithful departed grant eternal rest.
 	Through our Lord. \Rbar.~Amen.
 }
-
-\flushpage
 
 \heading{\section*{Conclusion}}
 
@@ -904,17 +886,12 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gregorioscore{benedicamus-domino}
+	\gregorioscore{../per-annum/benedicamus-domino}
 }{
-	Let us bless the Lord.
+	Let us bless the Lord. \Vbar.~Thanks be to God.
 }
 
-\latinenglish{
-	\gresetinitiallines{0}
-	\gregorioscore{deo-gratias}
-}{
-	Thanks be to God.
-}
+\rubric{In a low voice:}
 
 \latinenglish{
 	\begin{versicles}
@@ -926,7 +903,7 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	May the souls of the faithful departed, through the mercy of God, rest in peace. \Rbar.~Amen.
 }
 
-%\flushpage
+\flushpage
 
 \heading{\section*{Marian Anthem}}
 
@@ -943,7 +920,7 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	\begin{collect}
 	Deus, qui per resurrectiónem Fílii tui Dómini nostri Jesu Christi\linebreak mundum lætificáre dignátus es:
 	præsta, qu\'{\ae}sumus; ut per ejus Genitrícem Vírginem Maríam perpétuæ capiámus gáudia vitæ.
-	Per eumdum Christum Dóminum nostrum.
+	Per eúmdum Christum Dóminum nostrum.
 	\Amen
 	\end{collect}
 }{
@@ -980,26 +957,28 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 
 \begin{latinenglishequalsection}
 
-\spanning{\section*{Concluding Prayers}}
+\spanning{\section*{Prayers After the Office}}
 
 \rubric{All kneel and pray silently.}
-
+⎄
 \latinenglishequal{
-	\begin{versicles}
 	Sacrosánctæ et indivíduæ Trinitáti, Crucifíxi\linebreak Dómini nostri Jesu Christi humanitáti,
 	beatíssimæ et gloriosíssimæ sempérque Vírginis Maríæ fecúndae integritáti,
 	et ómnium Sanctórum universitáti sit sempitérna laus, honor, virtus et glória ab omni creatúra,
 	nobísque remíssio ómnium peccatórum,
 	per infiníta s\'{\ae}cula sæculórum. Amen.
-	
+}{
+	Everlasting praise, honor, power, and glory be given by all creatures to the most holy and undivided Trinity, to the Humanity of our crucified Lord Jesus Christ, to the fruitful purity of the most blessed and most glorious Mary ever Virgin, and to the company of all the Saints; and may we obtain the remission of all our sins through all eternity. Amen.
+}
+
+\latinenglishequal{
+	\begin{versicles}
 	\Vbar. Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.
 	
 	 \Rbar. Et beáta úbera quæ lactavérunt Christum\linebreak Dóminum. 
 	 \end{versicles}
 }{
-	\begin{versicles}
-	Everlasting praise, honor, power, and glory be given by all creatures to the most holy and undivided Trinity, to the Humanity of our crucified Lord Jesus Christ, to the fruitful purity of the most blessed and most glorious Mary ever Virgin, and to the company of all the Saints; and may we obtain the remission of all our sins through all eternity. Amen.
-	
+	\begin{versicles}	
 	\Vbar. Blessed is the womb of the Virgin Mary, that bore the Son of the eternal Father.
 	
 	 \Rbar. And blessed are the paps that gave suck to Christ our Lord.
@@ -1021,41 +1000,14 @@ However, on the Feast of the Annunciation, which may fall in this period, the Of
 	And lead us not into temptation: but deliver us from evil.
 	Amen.
 }
- 
- \latinenglishequal{
-	 Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
-	 Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
-}{
+
+\latinenglishequal{
+	Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+ Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+ }{
  	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
- 	Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
-}
- 
- \latinenglishequal{
-	Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ.
-Et in Jesum Christum, Fílium ejus únicum, Dóminum nostrum: qui concéptus est de Spíritu Sancto, natus ex María Vírgine, passus sub Póntio Piláto, crucifíxus, mórtuus, et sepúltus: descéndit ad ínferos; tértia die resurréxit a mórtuis; ascéndit ad cælos; sedet ad déxteram Dei Patris omnipoténtis: inde ventúrus est judicáre vivos et mórtuos.
-	Credo in Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communiónem, remissiónem peccatórum, carnis resurrectiónem, vitam ætérnam. Amen.
-}{
-	I believe in God,
-	the Father Almighty,
-	Creator of\linebreak heaven and earth,
-	and in Jesus Christ, His only Son, our Lord,
-	who was conceived by the Holy Spirit,
-	born of the Virgin Mary,
-	suffered under Pontius Pilate,
-	was crucified, died and was buried;
-	He descended into hell;
-	on the third day He rose again from the dead;
-	He ascended into heaven,
-	and is seated at the right hand of God the Father Almighty;
-	from thence He will come to judge the living and the dead.
-	I believe in the Holy Spirit,
-	the Holy Catholic Church,
-	the communion of Saints,
-	the forgiveness of sins,
-	the resurrection of the body,
-	and life everlasting.
-	Amen.
-}
+ Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+ }
 
 \end{latinenglishequalsection}
 
