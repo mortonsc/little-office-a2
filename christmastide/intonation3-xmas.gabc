@@ -1,0 +1,12 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = xmas.tex
+
+name:Rubum quem;
+office-part:Antiphona;
+mode:4;
+book:The Liber Usualis, 1961, p. 443;
+transcriber:Andrew Hinkley;
+annotation: Ant. 3;
+annotation: 4E;
+%%
+(c4) RU(d)bum(e') quem(f) ví(g')de(g)rat.(g) (::) E(h) u(g) o(h) u(ih) a(gf) e.(e.) (::)
