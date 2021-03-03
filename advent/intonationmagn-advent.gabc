@@ -1,0 +1,12 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = advent.tex
+
+name:Spiritus sanctus (Off. Parvum BMV);
+office-part:Antiphona;
+mode:8;
+book:Liber antiphonarius, 1960, p. [137];
+transcriber:Scott Morton;
+annotation: Ant.;
+annotation: 8G;
+%%
+(c4) SPí(gd)ri(f)tus(g) San(g_h)ctus.(g.)  (::) E(j) u(j) o(i) u(j) a(h) e.(g.) (::)

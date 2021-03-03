@@ -1,0 +1,12 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = advent.tex
+
+name:Dabit ei Dominus;
+office-part:Antiphona;
+mode:1;
+book:The Liber Usualis, 1961, p. 1417;
+transcriber:Andrew Hinkley;
+annotation: Ant. 4;
+annotation: 1f;
+%%
+(c4) DA(d)bit(dc) e(f)i(g') Dó(f)mi(gh)nus.(h.) (::) E(h) u(h) o(g) u(f) a(gh) e.(gf..) (::)

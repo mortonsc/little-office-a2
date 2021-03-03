@@ -1,0 +1,12 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = advent.tex
+
+name:Missus est Gabriel;
+office-part:Antiphona;
+mode:8;
+book:The Liber Usualis, 1961, p. 1416;
+transcriber:Andrew Hinkley;
+annotation: Ant. 1;
+annotation: 8G*;
+%%
+(c4) MIs(f)sus(fg) est.(gg) (::) E(j) u(j) o(i) u(j) a(h) e.(ghg.) (::)
